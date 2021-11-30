@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo>执行一些 Ant 任务：</echo>
+  <copy todir="C:\D\JavaTools\Jmeter\apache-jmeter-5.4.1/lib/dependencies">
+    <fileset dir="C:\AT\java_jmeter_auto\target/">
+      <include name="*.jar"/>
+    </fileset>
+  </copy>
+</target>
+</project>
