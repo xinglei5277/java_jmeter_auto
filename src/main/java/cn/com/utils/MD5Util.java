@@ -1,4 +1,4 @@
-package cn.com;
+package cn.com.utils;
 
 import org.apache.commons.codec.digest.DigestUtils;
 
@@ -10,4 +10,5 @@ public class MD5Util {
     public String test(){
         return "MD5Utils";
     }
+
 }
